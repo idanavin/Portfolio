@@ -1,0 +1,15 @@
+.header {
+    display: block;
+    height: 85vh;
+    position: relative;
+    background-image: linear-gradient(to bottom right, rgba($color-light, 0.8), rgba($color-brighten, 0.8)), url(../img/header-bgi.jpeg);
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 1%, 100% 29%, 100% 100%, 0 68%);
+
+    &__text-box {
+        position: absolute;
+        top: 40%;
+        left: 0%;
+    }
+}
